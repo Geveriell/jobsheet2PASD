@@ -20,6 +20,13 @@ public class MahasiswaMain07 {
 
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+
+        mahasiswa07 mhs3 = new mahasiswa07();
+        mhs3.nama = "erza";
+        mhs3.nim = "7465757";
+        mhs3.kelas = "SIB 1A";
+        mhs3.ipk = 3.89;
+                mhs3.tampilkanInformasi();
     }
 }
 
